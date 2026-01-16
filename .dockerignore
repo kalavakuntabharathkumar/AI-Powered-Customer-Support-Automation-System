@@ -1,0 +1,59 @@
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Development database
+*.db
+*.sqlite3
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic versions cache
+alembic/versions/__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Local env file (secrets must not enter the image)
+.env
+.env.local
+
+# Documentation source (not needed at runtime)
+docs/
+*.md
+CONTRIBUTING.md
+CHANGELOG.md
+
+# Makefile (dev convenience only)
+Makefile
